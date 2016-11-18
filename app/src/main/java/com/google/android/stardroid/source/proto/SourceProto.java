@@ -797,7 +797,7 @@ public final class SourceProto {
     // optional int32 font_size = 4 [default = 15];
     public static final int FONT_SIZE_FIELD_NUMBER = 4;
     private boolean hasFontSize;
-    private int fontSize_ = 15;
+    private int fontSize_ = 25;
     public boolean hasFontSize() { return hasFontSize; }
     public int getFontSize() { return fontSize_; }
     

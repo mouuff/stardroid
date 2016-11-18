@@ -113,7 +113,7 @@ public class DynamicStarMapActivity extends InjectableActivity
         RendererController rendererController, SharedPreferences sharedPreferences) {
       this.model = model;
       this.rendererController = rendererController;
-      this.horizontalRotation = sharedPreferences.getBoolean(ApplicationConstants.ROTATE_HORIZON_PREFKEY, false);
+      this.horizontalRotation = sharedPreferences.getBoolean(ApplicationConstants.ROTATE_HORIZON_PREFKEY, true);
       model.setHorizontalRotation(this.horizontalRotation);
     }
 
